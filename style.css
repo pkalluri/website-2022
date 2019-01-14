@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700);
+
+body {
+	padding:50px;
+	font:15px Work Sans;
+}
+
+.wrapper {
+	width:880px;
+	margin:0 auto;
+}
+
+section {
+	padding: 20;
+	margin: 0;
+	/*border: solid;*/
+}
+
+.image-frame {
+	border-radius: 100;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0 0 0 0;
+}
+
+a {
+	/*color: 297C95;*/
+	color:darkorange;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  /*border: solid;*/
+  /*padding: 0;*/
+}
+
+li.news {
+	padding: 0;
+}
+
+li {
+	padding: 10;
+}
+
+b {
+	font-weight: 500;
+}
