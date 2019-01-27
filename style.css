@@ -33,6 +33,10 @@ a {
 	font-weight: 400;
 }
 
+#news a {
+	color:steelblue;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
