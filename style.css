@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700);
 
 body {
 	padding:50px;
 	font:15px Work Sans;
+	font-weight: 400;
 }
 
 .wrapper {
@@ -22,21 +23,28 @@ section {
 
 h1 {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 200;
 	margin: 0 0 0 0;
 }
 
 h2 {
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 200;
 	margin: 0 0 0 0;
+}
+
+.date {
+	font-style: italic;
+	padding: 0 10 0 0;
+	width: 60px;
+	float: left;
 }
 
 a {
 	/*color: 297C95;*/
 	color:darkorange;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 400
 }
 
 #news a {
@@ -63,6 +71,6 @@ b {
 }
 
 .highlight {
-	font-weight: 600;
-	/*background-color: gainsboro;*/
+	/*font-weight: 600;*/
+	background-color: gainsboro;
 }
