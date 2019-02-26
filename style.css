@@ -35,25 +35,36 @@ h2 {
 
 .date {
 	font-style: italic;
-	padding: 0 10 0 0;
-	width: 60px;
+	/*padding: 0 10 0 0;*/
+	/*width: 100px;*/
 	float: left;
 }
 
+.event {
+	margin: 0 0 0 80;
+}
+
 a {
-	/*color: 297C95;*/
-	color:darkorange;
+/*	color: 297C95;
+*/	color:darkorange;
+	/*color: #ff00b6;*/
 	text-decoration: none;
 	font-weight: 400
 }
 
+#news {
+	background-color: #efefef;
+}
+
 #news a {
-	color:steelblue;
+	/*color:steelblue;*/
+	color: black;
+	text-decoration: underline;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  /*margin: 0;*/
   /*border: solid;*/
   /*padding: 0;*/
 }
@@ -72,5 +83,6 @@ b {
 
 .highlight {
 	/*font-weight: 600;*/
-	background-color: gainsboro;
+	/*background-color: gainsboro;*/
+	background-color: 	#F0F8FF;
 }
