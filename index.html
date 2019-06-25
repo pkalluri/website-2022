@@ -7,24 +7,35 @@
 		<link rel="icon" type="image/x-icon" href="myfavicon.ico"/>
 
 		<link rel="stylesheet" href=style.css>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">	
 	</head>
 
 	<div class="wrapper">
-		<img style="padding:0 15; border-radius:50%; float:left;" src="images/h-s.jpg" height=150px >
-		<div style="height:150px; display:flex; align-items:center;">
+		<img style="padding:0 15; border-radius:50%; float:left;" src="images/h-s.jpg" height=120px >
+		<div style="height:120px; display:flex; align-items:center;">
 			<span>
-				<h1>Pratyusha Ria Kalluri</h1>
-				PhD student in the <a href="http://ai.stanford.edu">Stanford Artificial Intelligence Laboratory</a> <br>
+				<h1 id="name">Pratyusha Ria Kalluri</h1>
+				<span>PhD student in the <a href="http://ai.stanford.edu">Stanford Artificial Intelligence Laboratory</a> </span><br>
+<!-- 				<a id='contact' href="mailto:pkalluri@stanford.edu"> <i class="fa fa-envelope"> </i>  pkalluri@stanford.edu </a>
+ -->			<a class="contact" id='email' href="mailto:pkalluri@stanford.edu"> <i class="fa fa-envelope"> </i>  pkalluri@stanford.edu </a>
+				<a class="contact" id='twitter' href="https://twitter.com/riakall?ref_src=twsrc%5Etfw"> <i class="fa fa-twitter"></i> @riakall </a>
+ 				<!-- <a id="twitter" href="https://twitter.com/riakall?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small" data-show-screen-name="false" data-show-count="false">Follow @riakall</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
 			</span>
     	</div>
 
-    	<section>
-			<h1>Bio</h1>
-			I am a second-year PhD student in computer science at the Stanford Artificial Intelligence Laboratory, where I am advised by <a href="https://cs.stanford.edu/~ermon/"  target="_blank">Stefano Ermon</a> 
+    	<br>
+    	<br>
+    	<br>
+
+
+    	<section id="bio">
+    		<h1 class="caps" id="about">ABOUT ME</h1>
+			I am a third-year PhD student in computer science at the Stanford Artificial Intelligence Laboratory, where I am advised by <a href="https://cs.stanford.edu/~ermon/"  target="_blank">Stefano Ermon</a> 
 			<!-- in the <a href="http://statsml.stanford.edu"  target="_blank">Statistical Machine Learning Group</a>  -->
-			and <a href="http://web.stanford.edu/~jurafsky/"  target="_blank">Dan Jurafsky</a> 
+			and <a href="http://web.stanford.edu/~jurafsky/"  target="_blank">Dan Jurafsky</a>;
+			I also co-lead Stanford Inclusion in AI.
 			<!-- in the <a href="https://nlp.stanford.edu/"  target="_blank">Natural Language Processing Group</a> -->
-			.
 
 			<!-- I am working on novel representation learning and learning objectives for deep generative models. I am working towards more reasonable, interpretable, and equitable machine learning.  -->
 
@@ -32,7 +43,7 @@
 
 			<!-- <span class="highlight">  </span> -->
 
-			I am interested in discovering and inducing conceputal reasoning inside machine learning models. This leads me to work on novel learning objectives, learning disentangled representations, and interpretability. I believe this work is one part of shaping a more radical and equitable AI future.
+			I am interested in discovering and inducing concepts inside machine learning models. This leads me to work on learning disentangled representations, novel learning objectives, and interpretability. I believe this work is one part of shaping a more radical and equitable AI future.
 			<!-- I'm interested in designing and analyzing <i>representation learning</i> and <i>suitable learning objectives</i> that enable machine learning models in general and deep generative models in particular to reason better. 
 			I'm interested in designing and analyzing <i>representation learning</i> and <i>suitable learning objectives</i> that enable machine learning models in general and deep generative models in particular to reason better.  -->
 
@@ -40,22 +51,25 @@
 			<!-- I'm deeply committed to disentangled, interpretable, and equitable machine learning. -->
 			<br>
 			<br>
-			Previously, I completed my bachelors in computer science at MIT (2016), advised by Patrick Winston (in the lineage of Marvin Minsky), and I was a visiting researcher at Complutense University of Madrid (2017), advised by Pablo Gervas. At MIT and Complutense, I built models of human reasoning, which continues to affect my views on machine learning. 
+			Previously, I completed my bachelors in computer science at MIT (2016), advised by Patrick Winston, in the lineage of Marvin Minsky, and I was a visiting researcher at Complutense University of Madrid (2017), advised by Pablo Gervas. 
+			<!-- At MIT and Complutense, I built models of human reasoning, which continues to affect my views on machine learning.  -->
 
 <!-- 			Previously, I interned at Microsoft (2014), completed my bachelors in computer science at MIT (2016), and was a visiting researcher at University Complutense in Madrid (2017), where I built symbolic and probabilistic models of human  reasoning.
- -->		<br><br>
+ -->
  			I have received 
 			the <a href="https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/the-open-phil-ai-fellowship#Class" target="_blank">Open Philanthropy AI Fellowship</a>, 
-			an <a href="https://www.nsfgrfp.org/"  target="_blank">NSF Graduate Research Fellowship</a>, 
+			the <a href="https://www.nsfgrfp.org/"  target="_blank">NSF Graduate Research Fellowship</a>, 
 			the <a href="https://www.pdsoros.org/"  target="_blank">Paul and Daisy Soros Fellowship</a>, 
 			the <a href="https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate"  target="_blank">Stanford EDGE Fellowship</a>, 
-			a Stanford School of Engineering Fellowship, 
+			<!-- a Stanford School of Engineering Fellowship,  -->
 			and the <a href="https://joininteract.com/"  target="_blank">Interact Fellowship</a>.
 			I am also an artist, previously under the mentorship of <a href="http://www.junotdiaz.com/"  target="_blank">Junot D&iacute;az</a> and <a href="http://www.charifshanahan.com/"  target="_blank">Charif Shanahan.</a>
 		</section>	
 
+		<!-- <div class="v"></div> -->
+
 		<section id="news">
-			<h1>News</h1>
+			<h1 class="caps" id="updates">UPDATES</h1>
 			<ul>
 
 			<!-- <li class="news">
@@ -65,77 +79,92 @@
 			</li> -->
 
 			<li class="news">
-			<span class="date">June '19</span>  
-			<div class="event">I am interning at OpenAI, doing interpretability research
+			<span class="date">2019</span>  
+			<span class="event">I am interning at OpenAI, doing interpretability research on the Clarity Team!</span>
+			</li>
+
+			<li class="news">
+			<span class="dateoff">June '19</span>  
+			<div class="event">I was a panelist on FATE ML research & queerness at the ICML Queer in AI Workshop
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">May '19</span>  
+			<span class="dateoff">May '19</span>  
 			<div class="event">I received the <a href="https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-philanthropy-project-ai-fellows-program"  target="_blank">Open Philanthropy Project AI Fellowship</a>
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">April '19</span>  
-			<div class="event">I wrote a <a href="https://ermongroup.github.io/blog/controllable-fairness/"  target="_blank">blogpost</a> about controllable fair machine learning
+			<span class="dateoff">April '19</span>  
+			<div class="event">I wrote a <a href="http://ai.stanford.edu/blog/controllable-fairness/"  target="_blank">blogpost</a> about controllable fairness in machine learning
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">April '19</span>  
+			<span class="dateoff">April '19</span>  
 			<div class="event">I received the <a href="https://www.nsfgrfp.org/"  target="_blank">NSF Graduate Research Fellowship</a>
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">Feb '19</span>  
-			<div class="event">I am co-leading Stanford's first Inclusion in AI group
+			<span class="dateoff">Feb '19</span>  
+			<div class="event">I am co-leading Stanford's Inclusion in AI group
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">Jan '19</span> 
-			<div class="event">I was a volunteer organizer at the <a href="https://fatconference.org/"  target="_blank">Fairness, Accountability, & Transparency*</a> in ML Conference<br>
+			<span class="dateoff">Jan '19</span> 
+			<div class="event">I am volunteering at the <a href="https://fatconference.org/"  target="_blank">Fairness, Accountability, & Transparency*</a> in ML Conference<br>
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">Dec '18</span>  
+			<span class="date">2018</span>  
 			<div class="event">My paper <a href="https://arxiv.org/abs/1812.04218"  target="_blank">Learning Controllable Fair Representations</a> was accepted to <a href="https://www.aistats.org/"  target="_blank">AISTATS</a></div>
 			</li>
 
 			<li class="news">
-			<span class="date">Dec '18</span>  
+			<span class="dateoff">Dec '18</span>  
 			<div class="event">I gave the talk 
 			"Fairness and Ethics in AI" at the Y Combinator AI Conference at OpenAI
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">June '18</span> 
+			<span class="dateoff">June '18</span> 
 			<div class="event">
 			Alvaro Bedoya & I gave the talk 
-			"The Paradox of Privacy" at the PD Soros Fellowship 20th Reunion<br>
+			"The Paradox of Privacy" at the PD Soros Fellowship Reunion<br>
 			</div>
 			</li>
 
 			<li class="news">
-			<span class="date">Sept '17</span> 
-			<div class="event">I began my PhD in computer science at Stanford
+			<span class="date">2017</span> 
+			<div class="event">I began my PhD in computer science at Stanford, supported by the <a href="https://www.pdsoros.org/"  target="_blank">PD Soros Fellowship</a>
 			</div>
 			</li>
 
 			</ul>
 		</section>
 
+		<br>
+		<br>
+		<br>
+		<!-- <div class="v"></div> -->
+		<hr>
+		<br>
+		<br>
+		<br>
+
+
+
+		<div>
 		<section>
 			<h2>Blog posts</h2>
 			<ul>
 			<li>
-			<a href="https://ermongroup.github.io/blog/controllable-fairness/"  target="_blank">Controllable Fair Machine Learning</a><br>
-			Pratyusha Kalluri<br>
-			Ermon Group blog<br>
+			<a href="http://ai.stanford.edu/blog/controllable-fairness/"  target="_blank">Controllable Fairness in Machine Learning</a><br>
 			</li>
 			</ul>
 		</section>
@@ -145,8 +174,7 @@
 			<ul>
 			<li>
 			<a href="aistats19.pdf"  target="_blank">Learning Controllable Fair Representations</a><br>
-			Jiaming Song*, Pratyusha Kalluri*, Aditya Grover, Shengjia Zhao, Stefano Ermon <br>
-			*equal authorship <br>
+			Jiaming Song*, Pratyusha Kalluri*, Aditya Grover, Shengjia Zhao, Stefano Ermon (*equal authorship) <br>
 			International Conference on Artificial Intelligence and Statistics (AISTATS), 2019.<br>
 			</li>
 
@@ -167,7 +195,8 @@
 			<li>
 			<a href="aistats19.pdf"  target="_blank">Learning Controllable Fair Representations via Latent Variable Generative Models</a><br>
 			Jiaming Song, Pratyusha Kalluri, Aditya Grover, Shengjia Zhao, Stefano Ermon <br>
-			ICML Workshop on Theoretical Foundations and Applications of Deep Generative Models, 2018.<br>
+			International Conference on Machine Learning (ICML) <br>
+			Workshop on Theoretical Foundations and Applications of Deep Generative Models, 2018.<br>
 			</li>
 			</ul>
 		</section>
@@ -184,21 +213,29 @@
 		</section> -->
 
 		<section>
-			<h2>Talks</h2>
+			<h2>Speaking</h2>
 			<ul>
 			<li>
-			<b>Fairness and Ethics in AI</b><br>
+			<b>The Impact of FATE ML research on the queer community</b><br>
+			<i>FATE ML = Fairness, Accountability, Transparency, and Ethics in ML </i><br>	
 			Pratyusha Kalluri<br>
-			Y Combinator AI Conference at OpenAI, Session, 2018.<br>
+			International Conference on Machine Learning (ICML), Queer in AI Workshop, 2019.<br>
 			</li>
 
 			<li>
-			<b>The Paradox of Privacy: Marginalized communities have long borne the brunt of "ubiquitous" surveillance</b><br>
+			<b>Fairness and ethics in AI</b><br>
+			Pratyusha Kalluri<br>
+			Y Combinator AI Conference at OpenAI, 2018.<br>
+			</li>
+
+			<li>
+			<b>The paradox of privacy: Marginalized communities have long borne the brunt of "ubiquitous" surveillance</b><br>
 			Pratyusha Kalluri, Alvaro Bedoya<br>
-			Paul & Daisy Soros Fellowship 20th Reunion at the Broadmoor Hotel, Session, 2018.<br>
+			Paul & Daisy Soros Fellowship 20th Reunion, 2018.<br>
 			</li>
 			</ul>
 		</section>
+		</div>
 
 <!-- 		<section>
 			<span class="highlight">I am also a writer, previously under the mentorship of Junot D&iacute;az and Charif Shanahan.</span>
@@ -209,11 +246,11 @@
 			Why pink? Where I am in the world, pink is often perceived as feminine, soft, and childish and not as smart, technical, and mathy. Writing in pink reminds me to not bother trying to signify my mathiness — it's a losing battle. Writing in pink reminds me to just do the math, enjoy the math, publish the math.
 		</section> -->
 
-		<section style="text-align: center;">pkalluri@stanford.edu</section>
+<!-- 		<section style="text-align: center;">pkalluri@stanford.edu</section>
+ -->
 
 
-
-
+ 		<br><br><br>
 
 
 

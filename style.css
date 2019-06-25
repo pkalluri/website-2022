@@ -9,7 +9,8 @@ body {
 .wrapper {
 	width:880px;
 	margin:0 auto;
-}
+/*	margin: 0 0 1000 0;
+*/}
 
 section {
 	padding: 20;
@@ -17,31 +18,117 @@ section {
 	/*border: solid;*/
 }
 
+/*#name {*/
+
+}
+
 .image-frame {
 	border-radius: 100;
 }
 
+.contact {
+	display: inline-block;
+	padding: 3px 5px;
+	margin: 5px 0px 0px 0px;
+	/*vertical-align: 6px;*/
+	border-radius: 3px;
+	/*border: solid 0px;*/
+	color: white;
+	font-weight: 300px;
+	font-size: 11px;
+}
+
+
+#twitter {
+	background-color: #00aced;
+}
+
+#email {
+	background-color: #6c68a3;
+}
+
 h1 {
 	font-size: 30px;
+	margin: 0 0 0 0;
+}
+
+h1#name {
+	font-weight: 300;
+}
+
+h1#about {
+	text-align: center;
+	margin: auto;
+}
+
+h1#updates {
+	/*border: solid;*/
+	text-align: center;
+	margin: auto;
+}
+
+h2 {
+	font-size: 16px;
 	font-weight: 300;
 	margin: 0 0 0 0;
 }
 
-h2 {
-	font-size: 20px;
-	font-weight: 400;
-	margin: 0 0 0 0;
+h1.caps {
+	font-size: 16px;
+	font-weight: 300;
+	/*background-color: black;*/
+	/*color: grey;*/
 }
 
+#bio {
+	text-align: justify;
+	/*background-color: gainsboro;*/
+}
+
+.v {
+	  border-right: 1px solid black;
+	  width: 50%;
+	  height: 75px;
+	  /*position: absolute;*/
+	  /*left: 50%;*/
+/*	  margin-left: -3px;
+*/	  top: 0;
+ }
+
 .date {
+	display: inline-block;
+	margin: 2;
+	font-weight: 400;
+	font-size: 14px;
+	/*font-style: italic;*/
+	padding: 0 10 0 10;
+	width: 10%;
+	text-align: center;
+	/*float: left;*/
+	/*border: orange solid 0px;*/
+	color: white;
+	background-color: grey;
+	border-radius: 25px;
+}
+
+.dateoff {
+	display: inline-block;
+	margin: 2;
 	font-style: italic;
-	/*padding: 0 10 0 0;*/
-	/*width: 100px;*/
-	float: left;
+	padding: 0 10 0 10;
+	width: 10%;
+	text-align: center;
+	/*float: left;*/
+	/*border: orange solid 0px;*/
+	color: white;
+	background-color: white;
+	border-radius: 25px;
 }
 
 .event {
-	margin: 0 0 0 80;
+	display: inline;
+	margin: 0 0 0 5;
+	width: 80%;
 }
 
 a {
@@ -53,7 +140,7 @@ a {
 }
 
 #news {
-	background-color: #efefef;
+	/*background-color: #efefef;*/
 }
 
 #news a {
@@ -64,7 +151,7 @@ a {
 
 ul {
   list-style-type: none;
-  /*margin: 0;*/
+  margin: 0;
   /*border: solid;*/
   /*padding: 0;*/
 }
@@ -75,6 +162,10 @@ li.news {
 
 li {
 	padding: 10;
+}
+
+.border {
+	border: solid 1px;
 }
 
 b {
