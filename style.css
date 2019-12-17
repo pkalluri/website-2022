@@ -3,7 +3,7 @@
 body {
 	padding:50px;
 	font:15px Work Sans;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .wrapper {
@@ -31,20 +31,21 @@ section {
 	padding: 3px 5px;
 	margin: 5px 0px 0px 0px;
 	/*vertical-align: 6px;*/
-	border-radius: 3px;
+	/*border-radius: 3px;*/
 	/*border: solid 0px;*/
 	color: white;
 	font-weight: 300px;
 	font-size: 11px;
+	background-color: darkorange;
 }
 
 
 #twitter {
-	background-color: #00aced;
+	/*background-color: #00aced;*/
 }
 
 #email {
-	background-color: #6c68a3;
+	/*background-color: #6c68a3;*/
 }
 
 h1 {
@@ -57,14 +58,22 @@ h1#name {
 }
 
 h1#about {
-	text-align: center;
-	margin: auto;
+	/*text-align: center;*/
+	/*margin: auto;*/
 }
 
 h1#updates {
 	/*border: solid;*/
 	text-align: center;
 	margin: auto;
+	font-style: italic;
+	/*padding: 0 10 0 10;*/
+	/*width: 10%;*/
+	/*float: left;*/
+	/*border: orange solid 0px;*/
+/*	color: white;
+	background-color: grey;*/
+	/*border-radius: 25px;*/
 }
 
 h2 {
@@ -102,7 +111,7 @@ h1.caps {
 	font-size: 14px;
 	/*font-style: italic;*/
 	padding: 0 10 0 10;
-	width: 10%;
+	width: 4%;
 	text-align: center;
 	/*float: left;*/
 	/*border: orange solid 0px;*/
@@ -116,7 +125,7 @@ h1.caps {
 	margin: 2;
 	font-style: italic;
 	padding: 0 10 0 10;
-	width: 10%;
+	width: 4%;
 	text-align: center;
 	/*float: left;*/
 	/*border: orange solid 0px;*/
@@ -136,7 +145,7 @@ a {
 */	color:darkorange;
 	/*color: #ff00b6;*/
 	text-decoration: none;
-	font-weight: 400
+	/*font-weight: 400*/
 }
 
 #news {
@@ -172,8 +181,20 @@ b {
 	font-weight: 600;
 }
 
-.highlight {
+a.sail {
+	color: darkorange;
+}
+
+.highlight-o {
 	/*font-weight: 600;*/
+	/*background-color: #2E4057;*/
+	/*background-color: #ffd1d1;*/
+	background-color: grey;
+	color: white;
+}
+
+.highlight {
+	/*font-weight: 600;
 	/*background-color: gainsboro;*/
 	background-color: 	#F0F8FF;
 }
